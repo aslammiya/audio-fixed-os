@@ -187,3 +187,4 @@ os.system('sound_setup.sh')
 
 select_distro()
 distro_process()
+file_setup()
