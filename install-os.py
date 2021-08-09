@@ -40,91 +40,91 @@ def distro_process():
 
 	if user_input == '1':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Ubuntu 18.04 downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Ubuntu 18.04 downloading has started...")
 		os.system(ubuntu18)
 	elif user_input == 'ubuntu 18.04':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Ubuntu 18.04 downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Ubuntu 18.04 downloading has started...")
 		os.system(ubuntu18)
 	elif user_input == 'ubuntu18':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Ubuntu 18.04 downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Ubuntu 18.04 downloading has started...")
 		os.system(ubuntu18)
 
 	elif user_input == '2':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Ubuntu 20.04 downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Ubuntu 20.04 downloading has started...")
 		os.system(ubuntu20)
 	elif user_input == 'ubuntu 20.04':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Ubuntu 20.04 downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Ubuntu 20.04 downloading has started...")
 		os.system(ubuntu20)
 	elif user_input == 'ubuntu20':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Ubuntu 20.04 downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Ubuntu 20.04 downloading has started...")
 		os.system(ubuntu20)
 
 	elif user_input == '3':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Kali linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Kali linux downloading has started...")
 		os.system(kali)
 	elif user_input == 'kali':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Kali linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Kali linux downloading has started...")
 		os.system(kali)
 
 	elif user_input == '4':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Debian linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Debian linux downloading has started...")
 		os.system(debian)
 	elif user_input == 'debian':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Debian linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Debian linux downloading has started...")
 		os.system(debian)
 
 	elif user_input == '5':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Arch linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Arch linux downloading has started...")
 		os.system(arch)
 	elif user_input == 'arch':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Arch linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Arch linux downloading has started...")
 		os.system(arch)
 
 	elif user_input == '6':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Manjaro linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Manjaro linux downloading has started...")
 		os.system(manjaro)
 	elif user_input == 'manjaro':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Manjaro linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Manjaro linux downloading has started...")
 		os.system(manjaro)
 
 	elif user_input == '7':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Fedora linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Fedora linux downloading has started...")
 		os.system(fedora)	
 	elif user_input == 'fedora':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Fedora linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Fedora linux downloading has started...")
 		os.system(fedora)
 
 	elif user_input == '8':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Void linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Void linux downloading has started...")
 		os.system(void)
 	elif user_input == 'void':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Void linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Void linux downloading has started...")
 		os.system(void)	
 
 	elif user_input == '9':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Alpine linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Alpine linux downloading has started...")
 		os.system(alpine)
 	elif user_input == 'alpine':
 		os.system('clear')
-		print(f"\n {red}[{white}-{red}] {cyan} Alpine linux downloading has started...")
+		print(f"{red}[{white}-{red}] {cyan} Alpine linux downloading has started...")
 		os.system(alpine)
 
 	else:
