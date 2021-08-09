@@ -58,7 +58,7 @@ def distro_process():
 	elif user_input == 'ubuntu 20.04':
 		os.system('clear')
 		print(f"\n {red}[{white}-{red}] {cyan} Ubuntu 20.04 downloading has started...")
-		os.system(ubuntu2)
+		os.system(ubuntu20)
 	elif user_input == 'ubuntu20':
 		os.system('clear')
 		print(f"\n {red}[{white}-{red}] {cyan} Ubuntu 20.04 downloading has started...")
