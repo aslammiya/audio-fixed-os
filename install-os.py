@@ -143,7 +143,7 @@ def file_setup():
 	else:
 		print(f'{red}[{white}-{red}] {red}File transfer faill...')	
 
-os.system('setup_sound.sh')
+os.system('sound_setup.sh')
 
 select_distro()
 distro_process()
