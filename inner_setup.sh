@@ -49,9 +49,7 @@ refs() {
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
     sudo apt-get upgrade -y
     sudo apt autoremove -y
-    banner
-    echo -e "${R} [${W}-${R}]${C} Installing Visual Studio..."${W}
-    
+   
     git clone --depth=1 https://github.com/vinceliuice/Layan-gtk-theme.git $HOME/Layan-gtk-theme
     sudo chmod +x $HOME/Layan-gtk-theme/install.sh
     sudo bash $HOME/Layan-gtk-theme/install.sh
