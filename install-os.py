@@ -7,6 +7,13 @@ green = "\033[1;32;40m"
 yellow = "\033[1;33;40m"
 white = "\033[1;37;40m"
 cyan = "\033[1;36;40m"
+try:
+	user_input_expt = input(f"\n {red}[{white}-{red}] {white} Enter distro : ")
+except KeyboardInterrupt:
+	print(f"\n\n {red}[{white}-{red}] {red} Process cancled by user...\n")
+	sys.exit()
+
+user_input = str(user_input_expt)
 
 def select_distro():
 	os.system('clear')
@@ -34,15 +41,6 @@ def distro_process():
 	fedora = "apt update -y && apt install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Fedora/fedora-xfce.sh | bash"
 	void = "apt update -y && apt install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Void/void-xfce.sh | bash"
 	alpine = "apt update -y && apt install curl proot tar -y && curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Alpine/alpinexfce.sh | bash"
-	
-	try:
-		user_input_expt = input(f"\n {red}[{white}-{red}] {white} Enter distro : ")
-	except KeyboardInterrupt:
-		print(f"\n\n {red}[{white}-{red}] {red} Process cancled by user...\n")
-		sys.exit()
-
-	global user_input
-	user_input = str(user_input_expt)
 
 	if user_input == '1':
 		os.system('clear')

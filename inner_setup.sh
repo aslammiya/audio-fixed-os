@@ -68,7 +68,6 @@ refs() {
 }
 
 vnc() {
-    banner
     echo -e "${R} [${W}-${R}]${C} Setting up VNC Server..."${W}
 
     if [[ ! -d "$HOME/.vnc" ]]; then
@@ -86,7 +85,6 @@ vnc() {
 }
 
 note() {
-    banner
     echo -e " ${G} Successfully Installed !"${W}
 }
 
