@@ -5,7 +5,7 @@ G="$(printf '\033[1;32m')"
 Y="$(printf '\033[1;33m')"
 B="$(printf '\033[1;34m')"
 C="$(printf '\033[1;36m')"
-W="$(printf '\033[1;37m')" 
+W="$(printf '\033[1;37m')"
 
 package() {
     echo -e "${R} [${W}-${R}]${C} Checking required packages..."${W}
@@ -34,7 +34,6 @@ sound() {
     echo "pulseaudio --start --exit-idle-time=-1" >> $HOME/.bashrc
     echo "pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" >> $HOME/.bashrc
 }
-
 
 package
 sound
